@@ -1,6 +1,7 @@
 #zdb
 warsaw_poland.osm
 db_config.json
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
