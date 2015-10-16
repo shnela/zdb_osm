@@ -18,3 +18,6 @@
     - detect connections and write them to the `passage` table
     - count all distances and fill `sections` and `section_connections` tables
 
+> Projekt wykonywany przez:
+> - Jakub Kuszneruk
+> - Piotr Winiewski
