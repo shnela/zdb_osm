@@ -8,6 +8,7 @@
 - to improve finding the shortests path there are two additional tables
   - `sections` - which is used to store segments of route which have no crossroads or roundabouts. Table contains length of the section.
   - `section_connectsions` - which store information about connected sections
+
 ## IMPORTING SCRIPT
 - osm data is imported by file `import_osm_data.py`
 - we won't use any xml parser because it will lead to high RAM consumption, osm xml schema is very simple, so custom solution will be good enough
