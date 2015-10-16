@@ -1,5 +1,7 @@
 # IMPORT DANYCH Z PLIKU 'warsaw_poland.osm':
+
 ## SQL TABLES
+
 - db schema avaliable in `initialize_osm_tables.sql`
 - everything is based on points placed on the plane
 - objects: street, crossroads and ronabouts are set of ordered points
@@ -8,7 +10,9 @@
 - to improve finding the shortests path there are two additional tables
   - `sections` - which is used to store segments of route which have no crossroads or rondabouts with their length
   - `section_connectsions` - which store information which sections are connected
+
 ## IMPORTING SCRIPT
+
 - osm data is imported by file `import_osm_data.py`
 - we won't use any xml parser because it will lead to high RAM consumption, osm xml schema is very simple, so custom solution will be good enough
 - import steps:
